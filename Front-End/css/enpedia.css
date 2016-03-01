@@ -1,0 +1,21 @@
+body{
+	padding-top: 90px;
+}
+
+
+.search-enpedia{
+	height: 300px;
+}
+
+/*.search-enpedia label{
+	font-size: 0.8em;
+}*/
+
+.enpedia-head{
+	width: 600px;
+	margin-bottom: 30px;
+}
+
+.full-width{
+	width: 100%;
+}
