@@ -1,0 +1,58 @@
+@media screen and (max-width: 790px) {
+    #sign_up{
+    	display: none;
+    }
+
+    nav{
+    	display: none;
+    }
+}
+
+@media all and (min-width: 960px) {
+    body{
+        font-size: 18px;
+    }
+}
+ 
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+}
+ 
+@media all and (max-width: 599px) and (min-width: 320px) {
+    body{
+        font-size: 12px;
+    }
+ 
+}
+
+@media screen and (max-width: 600px){
+    .main-description img{
+        max-width: 250px;
+    }
+
+    .benefit-item img{
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 790px){
+	#burger_menu{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        text-align: center;
+    }
+
+    .footer h3{
+        margin:30px auto;
+    }
+
+    .gone-mob{
+        display: none;
+    }
+}

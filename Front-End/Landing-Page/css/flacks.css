@@ -1,0 +1,98 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	-webkit-bos-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.flex {
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.frow {
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.frow-reverse {
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.fcolumn {
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+
+.frow > *,
+.frow-reverse > *{
+	margin: auto 15px;
+	-webkit-flex: 1 1 15em;
+	-moz-flex: 1 1 15em;
+	flex: 1 1 15em;
+}
+
+.fcolumn > * {
+	margin: 0px auto;
+	flex: none;
+}
+
+.nogrow > *{
+	flex: none;
+}
+
+.nowrap{
+	flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
+}
+
+.reversewrap{
+	flex-wrap: wrap-reverse;
+	-webkit-flex-wrap: wrap-reverse;
+}
+
+.auto > *{
+	margin: auto;
+}
+
+.space-between {
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+.space-around {
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+}
+
+.center {
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-content: center;
+}
+
+.end {
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+
+.flex.item{
+	margin: inherit;
+	padding: 10px;
+}
