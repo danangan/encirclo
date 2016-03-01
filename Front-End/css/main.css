@@ -16,9 +16,16 @@ body > * {
 	margin: auto;
 }
 
-span, p{
+span, p, a, li{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.btn, {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	text-align: center;
 	letter-spacing: 1px;
 }
@@ -289,3 +296,42 @@ footer
 	transition: all 0.3s ease-in;
 }
 
+.grsbwh
+{
+	width: 100%;
+	border-bottom: solid 3px #C7C6c6;
+}
+
+ul.sign-in
+{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 5px;
+}
+
+ul.sign-in li
+{
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+ul.sign-in li.extra-margin
+{
+	margin-bottom: 45px;
+}
+
+.btn-sign-in
+{
+	width: 100%;
+}
+
+.btn-center
+{
+	display: block;
+	margin: auto;
+}
+
+.btn-register
+{
+	background-color: 
+}
