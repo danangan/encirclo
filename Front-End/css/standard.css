@@ -19,4 +19,9 @@ h1, h2, h3 {
   display: block;
   margin: auto; }
 
+.btn-enc-light-grey {
+  color: #fff;
+  background-color: #c7c6c6;
+  border: none; }
+
 /*# sourceMappingURL=output.css.map */

@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,900,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/flacks.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/output.css">
+    <link rel="stylesheet" type="text/css" href="css/standard.css">
     <link rel="stylesheet" type="text/css" href="css/medquery.css">
   </head>
   <body>
@@ -43,12 +43,32 @@
       </div>
     </header>
 
-    <section class='container-fluid flex fcolumn center section-one gone-mob'>
+    <section class='container-fluid flex fcolumn center section-one'>
       <div class='row'>
-        <div class='col-sm-8 tour'>
+        <!-- Sign In Section for Mobile version -->
+        <div class="col-sm-4 display-mob">
+            <form class="float-left">
+                <div class="form grup sign-up">
+                <input type="email" class="form-control" id="username" placeholder="Username">
+                <div class="input-group">
+                  <input type="password" class="form-control" placeholder="password"><span class="input-group-btn"><button class="btn btn-default" type="button">Show</button>
+                  </span>
+                </div>
+                </div>
+                <button type="submit" class="btn-sign-in btn btn-default btn-enc-toska hor-center">Sign In</button>
+            </form>
+            <ul class="sign-in">
+              <li class="extra-margin"style="text-align: center;"><a href="#">Forgot Your Password</a></li>  
+              <li class="grsbwh"></li>
+              <li style="text-align: center;"><p>Not on Encirclo Yet?</p></li>
+              <li><button class="btn btn-center btn-default btn-enc-light-grey">Register</button>  </li>
+            </ul>
+        </div>
+
+        <div class='col-sm-8 tour gone-mob'>
           <img src="img/peta_hires.png">
         </div>
-        <div class='col-sm-4'>
+        <div class='col-sm-4 gone-mob'>
           <h1>Get Connected Now</h1>
           <form class='float-left'>
             <div class='form-group sign-up'>
@@ -58,7 +78,7 @@
               <input type='password' class='form-control' placeholder='Password'>
             </div>
             <p>By Clicking Connect Me Now, you Agree to our Terms and Condition and Privacy Policy.</p>
-            <button type="submit" class="btn btn-lg btn-enc-toska hor-center">Connect Me Now</button>
+            <button type="" class="btn btn-lg btn-enc-toska hor-center">Connect Me Now</button>
           </form>
         </div>
       </div>
@@ -66,7 +86,7 @@
 
     <div class='container-fluid flex flex-col drop-description' style='min-height:20%'>
       <h1 class='text-center'>Apa itu Encirclo?</h1>
-      <a class="btn btn-default btn-lg" href="#" role="button">Get to know more about Encirclo</a>
+      <a class="btn btn-default btn-lg btn-smaller-mob" href="#" role="button">Get to know more about Encirclo</a>
     </div>
 
     <div class='flex frow center reversewrap main-description'>

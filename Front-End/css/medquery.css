@@ -6,6 +6,7 @@
     nav{
     	display: none;
     }
+
 }
 
 @media all and (min-width: 960px) {
@@ -41,6 +42,7 @@
 	#burger_menu{
 		display: none;
 	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -55,4 +57,22 @@
     .gone-mob{
         display: none;
     }
+
+    .section-one{
+        padding-top: 20px;
+    }
+
+    .btn-smaller-mob
+    {
+        width: 250px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .display-mob{
+        display: none;
+    }
+
 }
