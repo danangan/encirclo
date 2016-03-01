@@ -58,8 +58,9 @@
         display: none;
     }
 
-    .section-one{
-        padding-top: 20px;
+    .section-one{ 
+        max-height: 360px;
+        padding-top:5%;
     }
 
     .btn-smaller-mob
