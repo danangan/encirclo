@@ -1,0 +1,15 @@
+
+
+.container {
+  /*border-style: solid;
+  border-width: 1px;*/
+  width: 700px;
+  margin: auto;
+  padding: 10%;
+  padding-top: 30px;
+}
+
+.btn {
+  width: 200px;
+  margin: auto;
+}
