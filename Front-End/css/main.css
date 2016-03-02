@@ -16,7 +16,7 @@ body > * {
 	margin: auto;
 }
 
-span, p, a, li{
+span, p, a, li, label{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	text-align: center;
@@ -256,10 +256,8 @@ img.dropbutton{
 
 *****************************************/
 
-
-footer
-{
-  	background-color: black;
+footer{
+  	background-color: #0f101e;
   	color: white;
   	padding-bottom: 20px;
 }
@@ -272,28 +270,29 @@ footer
 	margin-bottom: 50px;
 }
 
-.footer ul
-{
-	list-style: none;
-	padding-left: 0px;
+.footer li{
+	text-align: left;
 }
 
-.sos li
-{
-	display: inline-block;
-	margin: 0px 5px;
-}
  
-.footer a
-{
+.footer a{
 	color: white;
 }
 
-.footer h3
-{
+.footer h3{
 	margin: 30px 0;
 	border-bottom: solid 1px #fff;
 	width: 50%;
+	text-align: left;
+}
+
+.sos li{
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.copyright{
+	padding-left: 30px;
 }
 
 .dropbutton{
@@ -305,42 +304,45 @@ footer
 	transition: all 0.3s ease-in;
 }
 
-.grsbwh
-{
-	width: 100%;
-	border-bottom: solid 3px #C7C6c6;
-}
 
-ul.sign-in
-{
+
+ul{
 	list-style: none;
 	padding-left: 0px;
-	margin-top: 5px;
 }
 
-ul.sign-in li
-{
+li{
 	margin-left: 0px;
+}
+
+
+/*LE SIGN IN IN MOBILE*/
+ul.sign-in{
 	margin-top: 5px;
 }
 
-ul.sign-in li.extra-margin
-{
+ul.sign-in li{
+	margin-top: 5px;
+}
+
+ul.sign-in li.extra-margin{
 	margin-bottom: 45px;
 }
 
-.btn-sign-in
-{
+.btn-sign-in{
 	width: 100%;
 }
 
-.btn-center
-{
+.btn-center{
 	display: block;
 	margin: auto;
 }
 
-.btn-register
-{
+.btn-register{
 	background-color: 
+}
+
+.grsbwh{
+	width: 100%;
+	border-bottom: solid 3px #C7C6c6;
 }
