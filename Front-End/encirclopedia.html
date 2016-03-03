@@ -100,7 +100,7 @@
 					<li>
 						<h2>A</h2>
 						<ul>
-							<li><a href="#">Compagnie A</a></li>
+							<li><a class='popoverExampleTwo' href="#" rel="comments">Compagnie A</a></li>
 							<li><a href="#">Compagnie A</a></li>
 							<li><a href="#">Compagnie A</a></li>
 							<li><a href="#">Compagnie A</a></li>
@@ -166,18 +166,6 @@
 		</div>
 	</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 	<footer class="container-fluid">
       <div class="row footer">
         <div class="col-sm-4 ">
@@ -225,5 +213,22 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+ //    var position = $('#TESUTO').position();
+ //    console.log(position.top);
+ //    console.log(position.left);
+ //    $('#TESUTO').click(function(){
+ //    	$(".short-profile").css({ top: position.top, left: position.left });
+	//   $('.short-profile').toggle();
+	// })
+
+	 $(".popoverExampleTwo").popover({
+        html : true, 
+        content: function() {
+          return $('.short-profile').html();
+        },
+        title: ""
+    });
+    </script>
 </body>
 </html>

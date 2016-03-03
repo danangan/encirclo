@@ -89,11 +89,23 @@ a, a:hover{
 }
 
 .short-profile{
+	display: none;
+}
+
+.popover-content{
 	width: 500px;
-	height: 375px;
-	box-shadow: 0px 0px 10px #888;
+	height: 325px;
 	background: linear-gradient(180deg, #efefef 40%, #fff 40%);
-	z-index: 10;
+	z-index: 100;
+}
+
+.popover-content h2{
+	color: black !important;
+	border: none !important;
+}
+
+.popover-content li{
+	padding-left: 40px;
 }
 
 .prof-pict{
@@ -110,12 +122,16 @@ a, a:hover{
 }
 
 .short-interract button{
-	width: inherit;
+	width: 100px;
 	background: #61dec9;
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 0.7em;
+	font-size: 0.9em;
 	margin: 3px 0px;
 	padding: 0px;
+}
+
+.popover{
+    max-width: 100%; /* Max Width of the popover (depending on the container!) */
 }
