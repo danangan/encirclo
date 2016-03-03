@@ -1,4 +1,4 @@
-@media screen and (max-width: 790px) {
+s@media screen and (max-width: 790px) {
     #sign_up{
     	display: none;
     }
@@ -46,12 +46,20 @@
 }
 
 @media screen and (max-width: 768px) {
-    .footer{
+    .footer li,h3{
         text-align: center;
     }
 
-    .footer h3{
-        margin:30px auto;
+    .footer h3
+    {
+        text-align: center!important;
+        margin: 20px auto;
+    }
+
+    .sos
+    {
+        max-width: 173px;
+        margin: auto;
     }
 
     .gone-mob{
