@@ -95,17 +95,13 @@ a, a:hover{
 .popover-content{
 	width: 500px;
 	height: 325px;
+	z-index: 50;
 	background: linear-gradient(180deg, #efefef 40%, #fff 40%);
-	z-index: 100;
 }
 
 .popover-content h2{
 	color: black !important;
 	border: none !important;
-}
-
-.popover-content li{
-	padding-left: 40px;
 }
 
 .prof-pict{
