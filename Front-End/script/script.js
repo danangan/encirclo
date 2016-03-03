@@ -54,3 +54,5 @@ $(".dropbutton").click(function() {
   $(this).toggleClass('rotate');
   next.slideToggle('medium');
 });
+
+$('#testpop').popover('show');
